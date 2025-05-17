@@ -93,7 +93,7 @@ async def start():
     await web.TCPSite(app, bind_address, PORT).start()
     if CLONE_MODE == True:
         await restart_bots()
-    print("Bot Started Powered By ⌬ ")
+    print("Bot Started Powered By @iota_000 ")
     await idle()
 
 # Don't Remove Credit Tg - @VJ_Botz
